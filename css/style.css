@@ -1,0 +1,258 @@
+@charset 'utf-8';
+
+body
+{
+	background-color: #4b4743;
+	font-family: sans-serif;
+
+}
+
+/* -- Default -- */
+.paddingZero
+{
+	padding: 0;
+}
+
+/* -- Default END -- */
+
+
+/* -- ============= HEADER ============= -- */
+/* -- main menu -- */
+
+#main-menu
+{
+	background-color: #573a18;
+}
+
+#main-menu nav ul
+{
+	padding-left: 0;
+}
+
+#main-menu nav ul li
+{
+	list-style: none;
+	display: inline-block;
+
+}
+
+#main-menu nav ul li a
+{
+	font-size: 16px;
+	color: #969547;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 0 17px;
+}
+
+#main-menu nav ul li a:hover
+{
+	color: #e6e154;
+}
+
+/* -- main menu END -- */
+
+/* -- Header slider -- */
+
+#header-slider img
+{
+	width: 100%;
+}
+
+/* -- Header slider END -- */
+
+/* -- Contents -- */
+
+#contents,
+#header
+{
+	background-color: #1c1c1b;
+}
+
+#contents
+{
+	padding-left: 1.5em;
+}
+
+
+#main-content
+{
+	padding-top: 0;
+}
+
+#main-content .content-item .border
+{
+	border: 1px solid #333;
+	padding: 1em;
+	padding-top: 0;
+}
+
+#main-content .content-item .border h3
+{
+	background-color: #573a18;
+	padding: .7em;
+	color: #e6e154;
+	text-transform: capitalize;
+}
+
+#main-content .content-item .border h3 span
+{
+	color: #969547;
+	text-transform: none;
+}
+
+.content-item-detail p
+{
+    color: #fff;
+    margin-top: 0;
+	font-size: 12px;
+}
+
+.content-item-detail b
+{
+    color: #85391f;
+    font-size: 24px;
+}
+
+.content-item-detail .button
+{
+    border-radius: 15px;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	margin-top: .5em;
+	padding: 0.5em;
+	width: 50%;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#buyNow
+{
+    background-color: #927a20;
+}
+
+#buyNow:hover
+{
+    background-color: #fff;
+    color: #927a20;
+}
+
+#detail
+{
+    background-color: #111111;
+    border: 1px solid #333;
+}
+
+#detail:hover
+{
+    background-color: #fff;
+    color: #111111;
+    border-color: #fff;
+}
+
+
+/* -- Contents END-- */
+
+
+/* -- Sidebar left -- */
+
+#sidebar-left
+{
+    background-color: #171716;
+    margin-top: 1em;
+    border: 1px solid #212120;
+}
+
+.sidebar-menu ul
+{
+    padding-left: 10px;
+}
+
+.sidebar-menu ul li
+{
+    list-style: none;
+}
+
+.sidebar-menu ul li a
+{
+    text-decoration: none;
+    font-size: 12px;
+    color: #969547;
+}
+
+.sidebar-menu ul li a:hover
+{
+	text-decoration: underline;
+}
+
+.sidebar-menu h3
+{
+    text-transform: capitalize;
+    color: #e6e154;
+    border-bottom: 1px dashed #e6e154;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 8px;
+}
+
+/* -- Sidebar left END -- */
+
+/* -- Footer -- */
+
+footer
+{
+    background-color: #111110;
+    padding: 1.5em 1em;
+    text-align: center;
+}
+
+footer nav a 
+{
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 0.3em !important;
+    border-right: 1px solid #666;
+    padding-right: 0.6em !important;
+}
+
+footer nav a:last-child
+{
+	border-right: none;
+}
+
+footer nav a:hover
+{
+	text-decoration: underline;
+}
+
+footer div span
+{
+    color: #666;
+    font-size: 14px;
+    padding: 0 0.5em !important;
+    margin-top: 0.5em;
+    display: inline-block;
+    border-right: 1px solid;
+    padding-right: 0.8em !important;
+}
+
+footer div span:last-child
+{
+	border-right: none;
+}
+
+footer div span a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer div span a:hover
+{
+	text-decoration: underline;
+}
+/* -- ============= HEADER END ============= -- */
